@@ -36,6 +36,15 @@ nav{
 .logo h2{
     font-size: 24px;
 }
+hr{
+    display: none;
+}
+.bar{
+    font-size: 35px;
+    position: relative;
+    margin-left: 200px;
+    display: none;
+}
 .menu ul{
     margin-left: -600px;
     padding: 10px 0;
@@ -164,6 +173,7 @@ main{
 }
 .arrow-btn{
     text-align: center;
+    font-size: 30px;
     margin: 50px 0;
 }
 .arrow{
@@ -201,6 +211,19 @@ main{
 
 /* mobile friendly responsiv */
 @media screen and (max-width:576px) {
+    .logo h2{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    hr{
+        display: block;
+        margin-top: 10px;
+    }
     .header{
         padding: 0;
         margin: 50px 0 0 0;
